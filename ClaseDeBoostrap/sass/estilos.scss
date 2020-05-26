@@ -1,0 +1,23 @@
+$ColorRed:#FF0000;
+@mixin beto($raul) {
+    margin: $raul;
+    border: $ColorRed;
+    color: $raul;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    @include beto(green);
+    margin: auto;
+    a{
+        @include beto(green);
+      max-width: 10px;
+      i{
+        @include beto(green);
+      }
+    }
+  }
+  .claseChida{
+    background-color: $ColorRed;
+}

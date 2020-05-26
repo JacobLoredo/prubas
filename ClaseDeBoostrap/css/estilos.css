@@ -1,0 +1,27 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: green;
+  border: #FF0000;
+  color: green;
+  margin: auto;
+}
+body a {
+  margin: green;
+  border: #FF0000;
+  color: green;
+  max-width: 10px;
+}
+body a i {
+  margin: green;
+  border: #FF0000;
+  color: green;
+}
+
+.claseChida {
+  background-color: #FF0000;
+}
+
+/*# sourceMappingURL=estilos.css.map */

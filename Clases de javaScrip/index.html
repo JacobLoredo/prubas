@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Clases del Crack Foyo</title>
+</head>
+<body>
+    <h1>Dia 1</h1>
+    <!-- <button onclick="foo('hola')">Imprime</button> -->
+    <div class="hola">
+        <span id="imprimeTxt">Hola Mundo</span>
+        <span class="dato">Dato </span>
+        <span class="dato2">Dato </span>
+    </div>
+</body>
+</html>
+<!--Archivo para importar la libreria de jquery-->
+<script src="./jquery-3.4.1.min.js"></script>
+
+    <script>
+        //# espara un identificador  
+        $("#imprimeTxt").click(function(){
+            //escribir concatenadno cadenas
+            $(".hola").append('<p>Hola perros</p>');
+            //Sustituir lo que hay 
+            //$(".hola").html('<p>Hola perros</p>');
+
+            
+            console.log("Hola jquery");
+
+        });
+
+        
+        //funcion es una la cual se puede modificar para imprimir lo que yo deseo 
+        // function foo(params){
+        //     console.log(params);
+        //     let a=[];//declaracion de arreglos
+        //     let b=[];
+            
+        //     let foo={
+        //         "nombre": "Jacob",
+        //         "edad":22
+    
+        //     };
+        //     console.log(foo.edad);
+            
+        // }
+    </script>
